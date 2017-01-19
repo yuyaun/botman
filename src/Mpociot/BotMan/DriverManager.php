@@ -7,7 +7,7 @@ use Mpociot\BotMan\Drivers\Driver;
 use Mpociot\BotMan\Drivers\NullDriver;
 use Mpociot\BotMan\Drivers\NexmoDriver;
 use Mpociot\BotMan\Drivers\SlackDriver;
-use Mpociot\BotMan\Drivers\WeChatDriver;
+//use Mpociot\BotMan\Drivers\WeChatDriver;
 use Mpociot\BotMan\Drivers\HipChatDriver;
 use Mpociot\BotMan\Drivers\FacebookDriver;
 use Mpociot\BotMan\Drivers\TelegramDriver;
