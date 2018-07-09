@@ -192,7 +192,7 @@ class FacebookDriver extends Driver
 
         $parameters['access_token'] = $this->config->get('facebook_token');
 
-        return $this->http->post('https://graph.facebook.com/v2.6/me/messages', [], $parameters);
+        return $this->http->post('https://graph.facebook.com/v2.12/me/messages', [], $parameters);
     }
 
     /**
