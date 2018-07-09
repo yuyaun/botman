@@ -75,7 +75,7 @@ class FacebookDriver extends Driver
             'sender_action' => 'typing_on',
         ];
 
-        return $this->http->post('https://graph.facebook.com/v2.6/me/messages', [], $parameters);
+        return $this->http->post('https://graph.facebook.com/v2.12/me/messages', [], $parameters);
     }
 
     /**
